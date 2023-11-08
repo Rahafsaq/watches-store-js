@@ -15,6 +15,7 @@ updateTime();
 setInterval(updateTime, 1000);
 
 let changeLanguage = document.getElementById('change-language');
+let headerText = document.getElementById('header-text');
 let title = document.getElementById('title');
 let myP = document.getElementById('myP');
 let price = document.getElementById('price');
@@ -50,6 +51,7 @@ blue.addEventListener('click', () => {
 
 changeLanguage.addEventListener('click', () => {
 	textContainer.style.textAlign = 'right';
+	headerText.innerHTML = 'تسوق من افضل الساعات لدينا';
 	title.innerHTML = 'ساعة ذكية';
 	myP.innerHTML = 'شاشة لمس كاملة، تنبيه بالمكالمات، أوضاع رياضية، IP68، Sp02 ساعة ذكية';
 	price.innerHTML = '300 ريال';

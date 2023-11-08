@@ -52,6 +52,7 @@
     /* justify-content: space-evenly; */
     justify-content: center;
     gap: 10px;
+    
 }
 @media (max-width: 600px) {
 	#main {
